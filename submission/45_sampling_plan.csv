@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,"Vật lớn ở xa bị bỏ sót khi box nhỏ gần ngưỡng 40 px","Camera nhìn hướng di chuyển, nhiều xe/người nhất; lấy rải theo route và giờ, mỗi cảnh tối đa vài frame cách xa nhau để không đếm frame liền kề là ca độc lập"
+front,hard,35,"Rider/pedestrian ở rìa fisheye bị méo, ngược sáng, đông vật che nhau","Lỗi ADASIND tập trung ở ca méo rìa, lẫn rider và occluded/truncated; dành phần lớn nhất cho hard của camera có mật độ vật cao nhất"
+rear,normal,20,"Nhầm vật phía sau với thân xe ego/cản sau","Phủ các route chính để có baseline; ít vật hơn front nên cần ít frame normal hơn"
+rear,hard,30,"Lùi xe/đỗ xe: người/xe rất gần, bị cắt bởi vòng kính và ego_body","Tình huống cận xe sát, dễ sai phạm vi ignore (P0) và truncated; cần đủ ca để review policy ego_body"
+left,normal,20,"Xe song song cùng chiều bị box cắt ở biên hoặc trùng với camera front","Baseline cho camera bên; chọn các đoạn đường khác nhau, tránh chuỗi frame cùng một xe chạy song song"
+left,hard,25,"Vật nằm trong seam front-left/rear-left xuất hiện trên hai camera","Seam là nơi dễ trùng hoặc ghép sai box; cần ca có timestamp để thử policy output trước khi ghép"
+right,normal,20,"Lề đường, xe đỗ, người đi bộ sát lề bị méo mạnh ở rìa","Baseline cho camera bên phía lề; phủ nhiều loại lề/phố"
+right,hard,25,"Seam front-right/rear-right và vật sát xe khi tấp lề","Cùng lý do seam như left; thêm ca tấp lề/đỗ xe nơi vật rất gần và bị cắt"

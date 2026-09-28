@@ -1,0 +1,9 @@
+round: rework
+slice: B4-center
+sha256: 8efdd03406c12400005c4c1fb5e7aecde1f05058a239699609b8a2937edb436b
+code: 8EFD-D034
+locked_at: 2026-09-28T17:19:08+07:00
+shapes: box=28, polygon=12
+prefill_kept: 1
+prefill_edited: 3
+new: 24
