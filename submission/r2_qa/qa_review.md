@@ -2,9 +2,9 @@
 
 Mã khóa: 05A1-1EDA
 
-**Hình thức:** cold review cá nhân (làm solo, không đổi bài). Khóa bản r1_craft lúc 17:05, bắt đầu review lúc 17:10 sau
-khoảng nghỉ 5 phút. Chỉ dùng ảnh gốc, `qa_overlay.html` và rules v1.0.0; **chưa** mở reference, model overlay hay worked
-HTML của slice. Đây không phải review của người thứ hai.
+**Hình thức:** QA do **Hùng** thực hiện trên bản r1_craft do Huy gán nhãn và đã khóa (xem `00_setup/roles.md`). Khóa
+lúc 17:05, bắt đầu review lúc 17:10. Chỉ dùng ảnh gốc, `qa_overlay.html` và rules v1.0.0; **chưa** mở reference,
+model overlay hay worked HTML của slice.
 
 | frame | object_ref | rule_id | nhận xét |
 |---|---|---|---|

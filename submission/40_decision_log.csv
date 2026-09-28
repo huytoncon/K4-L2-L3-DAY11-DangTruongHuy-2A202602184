@@ -7,3 +7,4 @@ D5,2026-09-28,"Rework: sửa những ca nào?","Chỉ xóa 270517 L4 (E1, P1); k
 D6,2026-09-28,"295948 reference ego_body hình chữ nhật trùm 4 vật ở xa","Escalate cho data_ops (ticket 1), không sửa nhãn của tôi","R07/R09: polygon loại mất 4 vật hợp lệ khỏi so sánh, mức P0; lỗi thuộc reference",escalated
 D7,2026-09-28,"271039 auto L7 không có trong reference","Giữ box và escalate (ticket 2)","Auto cao 78 px thấy rõ, model M11 cũng thấy; R01 yêu cầu box",escalated
 D8,2026-09-28,"Model gán 5 xe ba bánh thành Car/Truck","Escalate cho ai_team (ticket 3), không dùng model làm pre-label cho ThreeWheeler","Lỗi lặp ở 5 vật trên 2 frame, đủ để nêu giả thuyết E4; cần đánh giá thêm trên nhiều frame",escalated
+D9,2026-09-28,"Phân công nhóm","Huy gán nhãn; Hùng QA/QC; Việt Anh viết report","Ghi trong 00_setup/roles.md để người chấm truy được ai làm phần nào",decided
